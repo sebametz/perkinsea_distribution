@@ -1,0 +1,54 @@
+                                              ....      ....  
+                                             '' '||.   .||'   
+                                                  ||  ||      
+                                                  '|.|'       
+     ...'   ....   ... ...  ... ...   ....        .|'|.       
+    |  ||  '' .||   ||'  ||  ||'  || '' .||      .|'  ||      
+     |''   .|' ||   ||    |  ||    | .|' ||     .|'|.  ||     
+    '....  '|..'|'. ||...'   ||...'  '|..'|.    '||'    ||:.  
+    '....'          ||       ||                               
+                   ''''     ''''    v0.6.1, (c) 2017-2020
+                                    by Lucas Czech and Pierre Barbera
+
+Invocation:                        gappa examine assign --jplace-path epa_result.jplace --taxon-file ../../REFERENCE_TREE/Taxonomy.txt --out-dir . --file-prefix taxonomy_ --best-hit --per-query-results --allow-file-overwriting --ranks-string TAX1|TAX2|TAX3|TAX4|TAX5|TAX6
+Command:                           gappa examine assign
+
+Input:
+  --jplace-path                    epa_result.jplace
+  --taxon-file                     ../../REFERENCE_TREE/Taxonomy.txt
+  --root-outgroup                  
+  --taxonomy                       
+  --ranks-string                   TAX1|TAX2|TAX3|TAX4|TAX5|TAX6
+
+Settings:
+  --sub-taxopath                   
+  --max-level                      0
+  --distribution-ratio             -1
+  --consensus-thresh               1
+  --resolve-missing-paths          false
+
+Output:
+  --out-dir                        .
+  --file-prefix                    taxonomy_
+  --cami                           false
+  --sample-id                      
+  --krona                          false
+  --sativa                         false
+  --per-query-results              true
+  --best-hit                       true
+
+Global Options:
+  --allow-file-overwriting         true
+  --verbose                        false
+  --threads                        4
+  --log-file
+
+Run the following command to get the references that need to be cited:
+`gappa tools citation Czech2020-genesis-and-gappa`
+
+Started 2022-10-24 10:51:13
+
+Found 1 jplace file
+Running the assignment
+
+Finished 2022-10-24 10:51:13
